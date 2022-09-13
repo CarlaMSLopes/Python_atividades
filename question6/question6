@@ -1,0 +1,4 @@
+distancia_percorrida = int(input("Digite a distância percorrida: "));
+gasolina_usada = float(input("Digite quanto litros de gasolina foi usado: "));
+
+print('{0:.3f}'.format(distancia_percorrida / gasolina_usada), " km/l" );
